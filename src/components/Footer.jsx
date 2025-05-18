@@ -5,27 +5,29 @@ const Footer = () => {
     <div id="root">
       <footer
         id="footer"
-        class="bg-neutral-50 pt-16 border-t border-neutral-200"
+        className="bg-neutral-50 pt-16 border-t border-neutral-200"
       >
-        <div class="container mx-auto px-4">
+        <div className="container mx-auto px-4">
           {/* <!-- Footer Top Section --> */}
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {/* <!-- Company Info --> */}
-            <div class="mb-8 md:mb-0">
-              <h3 class="text-xl font-bold text-neutral-900 mb-4">Rentivo</h3>
-              <p class="text-neutral-600 mb-4">
+            <div className="mb-8 md:mb-0">
+              <h3 className="text-xl font-bold text-neutral-900 mb-4">
+                Rentivo
+              </h3>
+              <p className="text-neutral-600 mb-4">
                 Find your perfect home with Rentivo. We offer a wide range of
                 rental properties to suit every lifestyle and budget.
               </p>
-              <div class="flex space-x-4 mt-4">
+              <div className="flex space-x-4 mt-4">
                 <a
                   href="#"
                   aria-label="Facebook"
-                  class="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
+                  className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500"
+                    className="h-5 w-5 text-red-500"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -35,11 +37,11 @@ const Footer = () => {
                 <a
                   href="#"
                   aria-label="Twitter"
-                  class="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
+                  className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500"
+                    className="h-5 w-5 text-red-500"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -49,11 +51,11 @@ const Footer = () => {
                 <a
                   href="#"
                   aria-label="Instagram"
-                  class="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
+                  className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500"
+                    className="h-5 w-5 text-red-500"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -63,11 +65,11 @@ const Footer = () => {
                 <a
                   href="#"
                   aria-label="LinkedIn"
-                  class="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
+                  className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:bg-red-50 transition-colors"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500"
+                    className="h-5 w-5 text-red-500"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -79,14 +81,14 @@ const Footer = () => {
 
             {/* <!-- Quick Links --> */}
             <div>
-              <h3 class="text-lg font-bold text-neutral-900 mb-4">
+              <h3 className="text-lg font-bold text-neutral-900 mb-4">
                 Quick Links
               </h3>
-              <ul class="space-y-2">
+              <ul className="space-y-2">
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Home
                   </a>
@@ -94,7 +96,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#property-categories"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Property Categories
                   </a>
@@ -102,7 +104,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#testimonials"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Testimonials
                   </a>
@@ -110,7 +112,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#contact"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Contact Us
                   </a>
@@ -118,7 +120,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     About Us
                   </a>
@@ -126,7 +128,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Blog
                   </a>
@@ -136,14 +138,14 @@ const Footer = () => {
 
             {/* <!-- Rental Services --> */}
             <div>
-              <h3 class="text-lg font-bold text-neutral-900 mb-4">
+              <h3 className="text-lg font-bold text-neutral-900 mb-4">
                 Rental Services
               </h3>
-              <ul class="space-y-2">
+              <ul className="space-y-2">
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Apartment Rentals
                   </a>
@@ -151,7 +153,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     House Rentals
                   </a>
@@ -159,7 +161,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Vacation Rentals
                   </a>
@@ -167,7 +169,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Student Housing
                   </a>
@@ -175,7 +177,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     Corporate Housing
                   </a>
@@ -183,7 +185,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-neutral-600 hover:text-red-500 transition-colors"
+                    className="text-neutral-600 hover:text-red-500 transition-colors"
                   >
                     List Your Property
                   </a>
@@ -193,14 +195,14 @@ const Footer = () => {
 
             {/* <!-- Contact Info --> */}
             <div>
-              <h3 class="text-lg font-bold text-neutral-900 mb-4">
+              <h3 className="text-lg font-bold text-neutral-900 mb-4">
                 Contact Info
               </h3>
-              <ul class="space-y-3">
-                <li class="flex items-start">
+              <ul className="space-y-3">
+                <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
+                    className="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -218,16 +220,16 @@ const Footer = () => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <span class="text-neutral-600">
+                  <span className="text-neutral-600">
                     123 Rental Avenue, Suite 456
                     <br />
                     New York, NY 10001
                   </span>
                 </li>
-                <li class="flex items-start">
+                <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
+                    className="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -239,12 +241,12 @@ const Footer = () => {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <span class="text-neutral-600">(123) 456-7890</span>
+                  <span className="text-neutral-600">(123) 456-7890</span>
                 </li>
-                <li class="flex items-start">
+                <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
+                    className="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -256,12 +258,12 @@ const Footer = () => {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <span class="text-neutral-600">info@rentivo.com</span>
+                  <span className="text-neutral-600">info@rentivo.com</span>
                 </li>
-                <li class="flex items-start">
+                <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
+                    className="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -273,7 +275,7 @@ const Footer = () => {
                       d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span class="text-neutral-600">
+                  <span className="text-neutral-600">
                     Mon-Fri: 9:00 AM - 6:00 PM
                     <br />
                     Sat: 10:00 AM - 4:00 PM
@@ -284,25 +286,25 @@ const Footer = () => {
           </div>
 
           {/* <!-- Newsletter & App Download --> */}
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-8 border-t border-neutral-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8 border-t border-neutral-200">
             {/* <!-- Newsletter --> */}
-            <div class="md:pr-8">
-              <h3 class="text-lg font-bold text-neutral-900 mb-3">
+            <div className="md:pr-8">
+              <h3 className="text-lg font-bold text-neutral-900 mb-3">
                 Subscribe to Our Newsletter
               </h3>
-              <p class="text-neutral-600 mb-4">
+              <p className="text-neutral-600 mb-4">
                 Get the latest updates, news and special offers sent directly to
                 your inbox.
               </p>
-              <form class="flex flex-col sm:flex-row gap-3">
+              <form className="flex flex-col sm:flex-row gap-3">
                 <input
                   type="email"
                   placeholder="Your Email Address"
-                  class="flex-grow px-4 py-2 rounded-lg border border-neutral-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 transition"
+                  className="flex-grow px-4 py-2 rounded-lg border border-neutral-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 transition"
                 />
                 <button
                   type="submit"
-                  class="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-2 rounded-lg transition-colors"
+                  className="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-2 rounded-lg transition-colors"
                 >
                   Subscribe
                 </button>
@@ -310,47 +312,47 @@ const Footer = () => {
             </div>
 
             {/* <!-- App Download --> */}
-            <div class="md:border-l md:border-neutral-200 md:pl-8">
-              <h3 class="text-lg font-bold text-neutral-900 mb-3">
+            <div className="md:border-l md:border-neutral-200 md:pl-8">
+              <h3 className="text-lg font-bold text-neutral-900 mb-3">
                 Download Our App
               </h3>
-              <p class="text-neutral-600 mb-4">
+              <p className="text-neutral-600 mb-4">
                 Search, view and rent properties on the go with our mobile app.
               </p>
-              <div class="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="#"
-                  class="inline-block px-5 py-2 bg-neutral-900 hover:bg-black text-white rounded-lg transition-colors flex items-center justify-center sm:justify-start"
+                  className="inline-block px-5 py-2 bg-neutral-900 hover:bg-black text-white rounded-lg transition-colors flex items-center justify-center sm:justify-start"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 mr-2"
+                    className="h-5 w-5 mr-2"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path d="M17.112 3.659c.336 0 .672.058.991.174.317.117.611.285.87.505.26.221.488.482.679.783.19.3.328.628.414.982.087.355.13.723.13 1.107v10.94c0 .385-.043.747-.13 1.089s-.223.654-.414.929c-.19.274-.418.51-.679.705-.26.196-.553.341-.87.437-.318.096-.654.145-.991.145-1.325 0-2.244-.652-2.757-1.959L9.35 8.164c-.11-.261-.243-.457-.4-.588-.158-.13-.375-.196-.648-.196-.294 0-.522.085-.686.257-.163.171-.245.43-.245.775v8.424c0 .366.057.712.172 1.039.114.327.276.612.483.854.207.243.463.436.765.58.303.145.647.218 1.035.218h.461v1.954H5.26v-1.953h.467c.4 0 .755-.073 1.066-.218.31-.146.572-.339.785-.58.213-.243.376-.528.488-.855.112-.327.168-.673.168-1.038v-8.97c0-.374-.056-.724-.168-1.051a2.148 2.148 0 00-.5-.843c-.22-.238-.49-.424-.811-.557-.323-.134-.692-.2-1.107-.2h-.388V2.62h4.051l5.196 12.654c.101.266.219.471.354.618.134.146.317.218.547.218.22 0 .388-.072.505-.218.117-.147.175-.352.175-.618V7.21c0-.266-.058-.504-.175-.715-.117-.21-.284-.314-.505-.314-.382 0-.649.217-.805.653h-2.122c.05-.329.145-.637.284-.921.138-.285.308-.53.51-.737.2-.208.428-.37.683-.485a1.9 1.9 0 01.804-.175c.278 0 .543.058.794.175.252.116.471.279.659.486.187.208.333.452.44.736.106.285.16.593.16.921 0 .337-.047.654-.139.95-.092.299-.225.567-.4.809h2.074c.323-.435.707-.783 1.15-1.043.443-.26.924-.39 1.443-.39z" />
                   </svg>
-                  <div class="text-left">
-                    <div class="text-xs">Download on the</div>
-                    <div class="text-sm font-semibold">App Store</div>
+                  <div className="text-left">
+                    <div className="text-xs">Download on the</div>
+                    <div className="text-sm font-semibold">App Store</div>
                   </div>
                 </a>
                 <a
                   href="#"
-                  class="inline-block px-5 py-2 bg-neutral-900 hover:bg-black text-white rounded-lg transition-colors flex items-center justify-center sm:justify-start"
+                  className="inline-block px-5 py-2 bg-neutral-900 hover:bg-black text-white rounded-lg transition-colors flex items-center justify-center sm:justify-start"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 mr-2"
+                    className="h-5 w-5 mr-2"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path d="M3.609 1.814c-.25.432-.379.921-.387 1.414v17.545c-.001.708.287 1.385.796 1.875l.013.012c.245.228.526.416.83.554.306.14.636.212.968.214.33-.002.657-.075.96-.214l10.309-5.933.009-.005c.306-.191.567-.444.765-.742v-.003c.229-.334.353-.73.355-1.136-.002-.407-.128-.803-.357-1.138l-.003-.003c-.197-.296-.458-.549-.763-.742l-.01-.005-10.309-5.933c-.304-.139-.629-.212-.959-.214-.332.002-.661.076-.966.215-.304.138-.585.325-.831.553l-.011.01c-.506.488-.793 1.162-.796 1.867.008.493.136.982.387 1.414z" />
                     <path d="M14.034 7.761l2.94 1.691-2.94 1.702v-3.393zM14.034 12.908l2.94 1.691-2.94 1.702v-3.393z" />
                   </svg>
-                  <div class="text-left">
-                    <div class="text-xs">GET IT ON</div>
-                    <div class="text-sm font-semibold">Google Play</div>
+                  <div className="text-left">
+                    <div className="text-xs">GET IT ON</div>
+                    <div className="text-sm font-semibold">Google Play</div>
                   </div>
                 </a>
               </div>
@@ -358,57 +360,57 @@ const Footer = () => {
           </div>
 
           {/* <!-- Trust Badges --> */}
-          <div class="py-8 border-t border-neutral-200">
-            <h3 class="text-lg font-bold text-neutral-900 mb-4 text-center">
+          <div className="py-8 border-t border-neutral-200">
+            <h3 className="text-lg font-bold text-neutral-900 mb-4 text-center">
               Trusted By
             </h3>
-            <div class="flex flex-wrap justify-center gap-8">
-              <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
+            <div className="flex flex-wrap justify-center gap-8">
+              <div className="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-6 w-6 text-red-500 mr-2"
+                  className="h-6 w-6 text-red-500 mr-2"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 22c5.421 0 10-4.579 10-10S17.421 2 12 2 2 6.579 2 12s4.579 10 10 10zm0-18c4.337 0 8 3.663 8 8s-3.663 8-8 8-8-3.663-8-8 3.663-8 8-8z" />
                   <path d="M12 17a1 1 0 100-2 1 1 0 000 2zm0-10v6a1 1 0 002 0V7a1 1 0 00-2 0z" />
                 </svg>
-                <span class="text-neutral-700 font-medium">
+                <span className="text-neutral-700 font-medium">
                   Verified Listings
                 </span>
               </div>
-              <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-6 w-6 text-red-500 mr-2"
+                  className="h-6 w-6 text-red-500 mr-2"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
                 </svg>
-                <span class="text-neutral-700 font-medium">
+                <span className="text-neutral-700 font-medium">
                   Secure Payments
                 </span>
               </div>
-              <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-6 w-6 text-red-500 mr-2"
+                  className="h-6 w-6 text-red-500 mr-2"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                 </svg>
-                <span class="text-neutral-700 font-medium">
+                <span className="text-neutral-700 font-medium">
                   Quality Assured
                 </span>
               </div>
-              <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-6 w-6 text-red-500 mr-2"
+                  className="h-6 w-6 text-red-500 mr-2"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                 </svg>
-                <span class="text-neutral-700 font-medium">
+                <span className="text-neutral-700 font-medium">
                   Top Rated Service
                 </span>
               </div>
@@ -416,14 +418,14 @@ const Footer = () => {
           </div>
 
           {/* <!-- Payment Methods --> */}
-          <div class="py-8 border-t border-neutral-200">
-            <h3 class="text-lg font-bold text-neutral-900 mb-4 text-center">
+          <div className="py-8 border-t border-neutral-200">
+            <h3 className="text-lg font-bold text-neutral-900 mb-4 text-center">
               Payment Methods
             </h3>
-            <div class="flex flex-wrap justify-center gap-4">
-              <div class="bg-white p-2 rounded-lg shadow-sm">
+            <div className="flex flex-wrap justify-center gap-4">
+              <div className="bg-white p-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-8 w-12 text-neutral-700"
+                  className="h-8 w-12 text-neutral-700"
                   viewBox="0 0 48 32"
                   fill="currentColor"
                 >
@@ -439,9 +441,9 @@ const Footer = () => {
                   />
                 </svg>
               </div>
-              <div class="bg-white p-2 rounded-lg shadow-sm">
+              <div className="bg-white p-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-8 w-12 text-neutral-700"
+                  className="h-8 w-12 text-neutral-700"
                   viewBox="0 0 48 32"
                   fill="currentColor"
                 >
@@ -457,9 +459,9 @@ const Footer = () => {
                   <path d="M30 17l1-2.5 1 2.5h-2z" fill="#3C58BF" />
                 </svg>
               </div>
-              <div class="bg-white p-2 rounded-lg shadow-sm">
+              <div className="bg-white p-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-8 w-12 text-neutral-700"
+                  className="h-8 w-12 text-neutral-700"
                   viewBox="0 0 48 32"
                   fill="currentColor"
                 >
@@ -475,9 +477,9 @@ const Footer = () => {
                   />
                 </svg>
               </div>
-              <div class="bg-white p-2 rounded-lg shadow-sm">
+              <div className="bg-white p-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-8 w-12 text-neutral-700"
+                  className="h-8 w-12 text-neutral-700"
                   viewBox="0 0 48 32"
                   fill="currentColor"
                 >
@@ -489,9 +491,9 @@ const Footer = () => {
                   />
                 </svg>
               </div>
-              <div class="bg-white p-2 rounded-lg shadow-sm">
+              <div className="bg-white p-2 rounded-lg shadow-sm">
                 <svg
-                  class="h-8 w-12 text-neutral-700"
+                  className="h-8 w-12 text-neutral-700"
                   viewBox="0 0 48 32"
                   fill="currentColor"
                 >
@@ -522,33 +524,33 @@ const Footer = () => {
           </div>
 
           {/* <!-- Bottom Footer --> */}
-          <div class="py-6 border-t border-neutral-200">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-              <p class="text-neutral-500 text-sm mb-4 md:mb-0">
+          <div className="py-6 border-t border-neutral-200">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <p className="text-neutral-500 text-sm mb-4 md:mb-0">
                 © 2023 Rentivo. All rights reserved.
               </p>
-              <div class="flex flex-wrap justify-center gap-4">
+              <div className="flex flex-wrap justify-center gap-4">
                 <a
                   href="#"
-                  class="text-neutral-500 hover:text-red-500 text-sm transition-colors"
+                  className="text-neutral-500 hover:text-red-500 text-sm transition-colors"
                 >
                   Terms & Conditions
                 </a>
                 <a
                   href="#"
-                  class="text-neutral-500 hover:text-red-500 text-sm transition-colors"
+                  className="text-neutral-500 hover:text-red-500 text-sm transition-colors"
                 >
                   Privacy Policy
                 </a>
                 <a
                   href="#"
-                  class="text-neutral-500 hover:text-red-500 text-sm transition-colors"
+                  className="text-neutral-500 hover:text-red-500 text-sm transition-colors"
                 >
                   Cookie Policy
                 </a>
                 <a
                   href="#"
-                  class="text-neutral-500 hover:text-red-500 text-sm transition-colors"
+                  className="text-neutral-500 hover:text-red-500 text-sm transition-colors"
                 >
                   Sitemap
                 </a>
@@ -560,11 +562,11 @@ const Footer = () => {
         {/* <!-- Back to Top Button --> */}
         <button
           id="backToTop"
-          class="fixed bottom-8 right-8 bg-red-500 text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 z-50"
+          className="fixed bottom-8 right-8 bg-red-500 text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 z-50"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
+            className="h-6 w-6"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -587,11 +589,11 @@ const Footer = () => {
                 // Show button when user scrolls down 300px
                 window.addEventListener("scroll", function () {
                   if (window.pageYOffset > 300) {
-                    backToTopButton.classList.remove("opacity-0", "invisible");
-                    backToTopButton.classList.add("opacity-100", "visible");
+                    backToTopButton.classNameList.remove("opacity-0", "invisible");
+                    backToTopButton.classNameList.add("opacity-100", "visible");
                   } else {
-                    backToTopButton.classList.remove("opacity-100", "visible");
-                    backToTopButton.classList.add("opacity-0", "invisible");
+                    backToTopButton.classNameList.remove("opacity-100", "visible");
+                    backToTopButton.classNameList.add("opacity-0", "invisible");
                   }
                 });
 

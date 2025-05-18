@@ -3,47 +3,47 @@ import React from "react";
 const Properties = () => {
   return (
     <div id="root">
-      <section id="featured-properties" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
+      <section id="featured-properties" className="py-16 bg-white">
+        <div className="container mx-auto px-4">
           {/* <!-- Section Header --> */}
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-black">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">
               Featured Properties
             </h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">
+            <p className="text-gray-600 max-w-2xl mx-auto">
               Discover our handpicked selection of stunning properties that
               offer comfort, style, and exceptional value.
             </p>
           </div>
 
           {/* <!-- Property Filters --> */}
-          <div class="flex flex-wrap justify-center mb-10 gap-3">
+          <div className="flex flex-wrap justify-center mb-10 gap-3">
             <button
-              class="property-filter-btn bg-red-300 text-white px-5 py-2 rounded-full"
+              className="property-filter-btn bg-red-300 text-white px-5 py-2 rounded-full"
               data-filter="all"
             >
               All
             </button>
             <button
-              class="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
+              className="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
               data-filter="apartment"
             >
               Apartments
             </button>
             <button
-              class="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
+              className="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
               data-filter="house"
             >
               Houses
             </button>
             <button
-              class="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
+              className="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
               data-filter="villa"
             >
               Villas
             </button>
             <button
-              class="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
+              className="property-filter-btn bg-white text-gray-700 px-5 py-2 rounded-full border border-gray-200 hover:bg-red-50 hover:text-red-400 hover:border-red-300"
               data-filter="studio"
             >
               Studios
@@ -51,34 +51,34 @@ const Properties = () => {
           </div>
 
           {/* <!-- Properties Grid --> */}
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* <!-- Property Card 1 --> */}
             <div
-              class="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
+              className="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
               data-category="apartment"
             >
               {/* <!-- Property Image --> */}
-              <div class="relative">
+              <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8bW9kZXJuJTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aXRoJTJCbGlnaHQlMkJjb2xvcnN8ZW58MHx8fHwxNzQ1ODUxNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Scandinavian style apartment interior"
-                  class="w-full h-56 object-cover"
+                  className="w-full h-56 object-cover"
                   loading="lazy"
                 />
-                <div class="absolute top-4 left-4">
-                  <span class="bg-red-300 text-white px-3 py-1 rounded-full text-sm">
+                <div className="absolute top-4 left-4">
+                  <span className="bg-red-300 text-white px-3 py-1 rounded-full text-sm">
                     Featured
                   </span>
                 </div>
-                <div class="absolute bottom-4 right-4">
+                <div className="absolute bottom-4 right-4">
                   <button
-                    class="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
+                    className="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
                     data-id="1"
                     aria-label="Save property"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -95,14 +95,14 @@ const Properties = () => {
               </div>
 
               {/* <!-- Property Details --> */}
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">
                   Modern Scandinavian Apartment
                 </h3>
-                <p class="text-gray-500 mb-4 flex items-center">
+                <p className="text-gray-500 mb-4 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-4 mr-1"
+                    className="h-4 w-4 mr-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -124,11 +124,11 @@ const Properties = () => {
                 </p>
 
                 {/* <!-- Features --> */}
-                <div class="flex justify-between mb-4 text-sm text-gray-600">
-                  <div class="flex items-center">
+                <div className="flex justify-between mb-4 text-sm text-gray-600">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -142,10 +142,10 @@ const Properties = () => {
                     </svg>
                     2 Bedrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -159,10 +159,10 @@ const Properties = () => {
                     </svg>
                     1 Bathroom
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -179,13 +179,15 @@ const Properties = () => {
                 </div>
 
                 {/* <!-- Price & Action Button --> */}
-                <div class="flex justify-between items-center">
+                <div className="flex justify-between items-center">
                   <div>
-                    <span class="text-2xl font-bold text-black">$1,250</span>
-                    <span class="text-gray-500">/month</span>
+                    <span className="text-2xl font-bold text-black">
+                      $1,250
+                    </span>
+                    <span className="text-gray-500">/month</span>
                   </div>
                   <button
-                    class="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
+                    className="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
                     data-id="1"
                   >
                     View Details
@@ -196,31 +198,31 @@ const Properties = () => {
 
             {/* <!-- Property Card 2 --> */}
             <div
-              class="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
+              className="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
               data-category="house"
             >
               {/* <!-- Property Image --> */}
-              <div class="relative">
+              <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1558603668-6570496b66f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8bW9kZXJuJTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aXRoJTJCbGlnaHQlMkJjb2xvcnN8ZW58MHx8fHwxNzQ1ODUxNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Cactus and Interior love"
-                  class="w-full h-56 object-cover"
+                  className="w-full h-56 object-cover"
                   loading="lazy"
                 />
-                <div class="absolute top-4 left-4">
-                  <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">
+                <div className="absolute top-4 left-4">
+                  <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm">
                     New
                   </span>
                 </div>
-                <div class="absolute bottom-4 right-4">
+                <div className="absolute bottom-4 right-4">
                   <button
-                    class="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
+                    className="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
                     data-id="2"
                     aria-label="Save property"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -237,14 +239,14 @@ const Properties = () => {
               </div>
 
               {/* <!-- Property Details --> */}
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">
                   Spacious Family House
                 </h3>
-                <p class="text-gray-500 mb-4 flex items-center">
+                <p className="text-gray-500 mb-4 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-4 mr-1"
+                    className="h-4 w-4 mr-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -266,11 +268,11 @@ const Properties = () => {
                 </p>
 
                 {/* <!-- Features --> */}
-                <div class="flex justify-between mb-4 text-sm text-gray-600">
-                  <div class="flex items-center">
+                <div className="flex justify-between mb-4 text-sm text-gray-600">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -284,10 +286,10 @@ const Properties = () => {
                     </svg>
                     4 Bedrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -301,10 +303,10 @@ const Properties = () => {
                     </svg>
                     2 Bathrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -321,13 +323,15 @@ const Properties = () => {
                 </div>
 
                 {/* <!-- Price & Action Button --> */}
-                <div class="flex justify-between items-center">
+                <div className="flex justify-between items-center">
                   <div>
-                    <span class="text-2xl font-bold text-black">$2,450</span>
-                    <span class="text-gray-500">/month</span>
+                    <span className="text-2xl font-bold text-black">
+                      $2,450
+                    </span>
+                    <span className="text-gray-500">/month</span>
                   </div>
                   <button
-                    class="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
+                    className="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
                     data-id="2"
                   >
                     View Details
@@ -338,26 +342,26 @@ const Properties = () => {
 
             {/* <!-- Property Card 3 --> */}
             <div
-              class="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
+              className="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
               data-category="studio"
             >
               {/* <!-- Property Image --> */}
-              <div class="relative">
+              <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1532372320572-cda25653a26d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NHx8bW9kZXJuJTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aXRoJTJCbGlnaHQlMkJjb2xvcnN8ZW58MHx8fHwxNzQ1ODUxNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Books in brown wooden side table"
-                  class="w-full h-56 object-cover"
+                  className="w-full h-56 object-cover"
                   loading="lazy"
                 />
-                <div class="absolute bottom-4 right-4">
+                <div className="absolute bottom-4 right-4">
                   <button
-                    class="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
+                    className="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
                     data-id="3"
                     aria-label="Save property"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -374,14 +378,14 @@ const Properties = () => {
               </div>
 
               {/* <!-- Property Details --> */}
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">
                   Cozy Studio Apartment
                 </h3>
-                <p class="text-gray-500 mb-4 flex items-center">
+                <p className="text-gray-500 mb-4 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-4 mr-1"
+                    className="h-4 w-4 mr-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -403,11 +407,11 @@ const Properties = () => {
                 </p>
 
                 {/* <!-- Features --> */}
-                <div class="flex justify-between mb-4 text-sm text-gray-600">
-                  <div class="flex items-center">
+                <div className="flex justify-between mb-4 text-sm text-gray-600">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -421,10 +425,10 @@ const Properties = () => {
                     </svg>
                     Studio
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -438,10 +442,10 @@ const Properties = () => {
                     </svg>
                     1 Bathroom
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -458,13 +462,13 @@ const Properties = () => {
                 </div>
 
                 {/* <!-- Price & Action Button --> */}
-                <div class="flex justify-between items-center">
+                <div className="flex justify-between items-center">
                   <div>
-                    <span class="text-2xl font-bold text-black">$850</span>
-                    <span class="text-gray-500">/month</span>
+                    <span className="text-2xl font-bold text-black">$850</span>
+                    <span className="text-gray-500">/month</span>
                   </div>
                   <button
-                    class="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
+                    className="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
                     data-id="3"
                   >
                     View Details
@@ -475,31 +479,31 @@ const Properties = () => {
 
             {/* <!-- Property Card 4 --> */}
             <div
-              class="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
+              className="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
               data-category="villa"
             >
               {/* <!-- Property Image --> */}
-              <div class="relative">
+              <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1519642918688-7e43b19245d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NXx8bW9kZXJuJTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aXRoJTJCbGlnaHQlMkJjb2xvcnN8ZW58MHx8fHwxNzQ1ODUxNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Loft Party!"
-                  class="w-full h-56 object-cover"
+                  className="w-full h-56 object-cover"
                   loading="lazy"
                 />
-                <div class="absolute top-4 left-4">
-                  <span class="bg-red-300 text-white px-3 py-1 rounded-full text-sm">
+                <div className="absolute top-4 left-4">
+                  <span className="bg-red-300 text-white px-3 py-1 rounded-full text-sm">
                     Featured
                   </span>
                 </div>
-                <div class="absolute bottom-4 right-4">
+                <div className="absolute bottom-4 right-4">
                   <button
-                    class="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
+                    className="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
                     data-id="4"
                     aria-label="Save property"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -516,14 +520,14 @@ const Properties = () => {
               </div>
 
               {/* <!-- Property Details --> */}
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">
                   Luxury Villa with Pool
                 </h3>
-                <p class="text-gray-500 mb-4 flex items-center">
+                <p className="text-gray-500 mb-4 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-4 mr-1"
+                    className="h-4 w-4 mr-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -545,11 +549,11 @@ const Properties = () => {
                 </p>
 
                 {/* <!-- Features --> */}
-                <div class="flex justify-between mb-4 text-sm text-gray-600">
-                  <div class="flex items-center">
+                <div className="flex justify-between mb-4 text-sm text-gray-600">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -563,10 +567,10 @@ const Properties = () => {
                     </svg>
                     5 Bedrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -580,10 +584,10 @@ const Properties = () => {
                     </svg>
                     3 Bathrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -600,13 +604,15 @@ const Properties = () => {
                 </div>
 
                 {/* <!-- Price & Action Button --> */}
-                <div class="flex justify-between items-center">
+                <div className="flex justify-between items-center">
                   <div>
-                    <span class="text-2xl font-bold text-black">$4,500</span>
-                    <span class="text-gray-500">/month</span>
+                    <span className="text-2xl font-bold text-black">
+                      $4,500
+                    </span>
+                    <span className="text-gray-500">/month</span>
                   </div>
                   <button
-                    class="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
+                    className="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
                     data-id="4"
                   >
                     View Details
@@ -617,31 +623,31 @@ const Properties = () => {
 
             {/* <!-- Property Card 5 --> */}
             <div
-              class="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
+              className="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
               data-category="apartment"
             >
               {/* <!-- Property Image --> */}
-              <div class="relative">
+              <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1509805225007-73e8ba4b5be8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8N3x8bW9kZXJuJTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aXRoJTJCbGlnaHQlMkJjb2xvcnN8ZW58MHx8fHwxNzQ1ODUxNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Where comfort meets design"
-                  class="w-full h-56 object-cover"
+                  className="w-full h-56 object-cover"
                   loading="lazy"
                 />
-                <div class="absolute top-4 left-4">
-                  <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">
+                <div className="absolute top-4 left-4">
+                  <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">
                     Special Offer
                   </span>
                 </div>
-                <div class="absolute bottom-4 right-4">
+                <div className="absolute bottom-4 right-4">
                   <button
-                    class="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
+                    className="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
                     data-id="5"
                     aria-label="Save property"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -658,12 +664,14 @@ const Properties = () => {
               </div>
 
               {/* <!-- Property Details --> */}
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">Designer Apartment</h3>
-                <p class="text-gray-500 mb-4 flex items-center">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">
+                  Designer Apartment
+                </h3>
+                <p className="text-gray-500 mb-4 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-4 mr-1"
+                    className="h-4 w-4 mr-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -685,11 +693,11 @@ const Properties = () => {
                 </p>
 
                 {/* <!-- Features --> */}
-                <div class="flex justify-between mb-4 text-sm text-gray-600">
-                  <div class="flex items-center">
+                <div className="flex justify-between mb-4 text-sm text-gray-600">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -703,10 +711,10 @@ const Properties = () => {
                     </svg>
                     3 Bedrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -720,10 +728,10 @@ const Properties = () => {
                     </svg>
                     2 Bathrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -740,13 +748,15 @@ const Properties = () => {
                 </div>
 
                 {/* <!-- Price & Action Button --> */}
-                <div class="flex justify-between items-center">
+                <div className="flex justify-between items-center">
                   <div>
-                    <span class="text-2xl font-bold text-black">$1,800</span>
-                    <span class="text-gray-500">/month</span>
+                    <span className="text-2xl font-bold text-black">
+                      $1,800
+                    </span>
+                    <span className="text-gray-500">/month</span>
                   </div>
                   <button
-                    class="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
+                    className="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
                     data-id="5"
                   >
                     View Details
@@ -757,26 +767,26 @@ const Properties = () => {
 
             {/* <!-- Property Card 6 --> */}
             <div
-              class="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
+              className="property-card bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:-translate-y-1 hover:shadow-lg"
               data-category="house"
             >
               {/* <!-- Property Image --> */}
-              <div class="relative">
+              <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1538577880403-f9998e75dd06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8OHx8bW9kZXJuJTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aXRoJTJCbGlnaHQlMkJjb2xvcnN8ZW58MHx8fHwxNzQ1ODUxNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400"
                   alt="for lazy days"
-                  class="w-full h-56 object-cover"
+                  className="w-full h-56 object-cover"
                   loading="lazy"
                 />
-                <div class="absolute bottom-4 right-4">
+                <div className="absolute bottom-4 right-4">
                   <button
-                    class="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
+                    className="bg-white p-2 rounded-full shadow-md text-red-400 hover:text-red-500 focus:outline-none save-property"
                     data-id="6"
                     aria-label="Save property"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -793,12 +803,12 @@ const Properties = () => {
               </div>
 
               {/* <!-- Property Details --> */}
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">Modern Townhouse</h3>
-                <p class="text-gray-500 mb-4 flex items-center">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Modern Townhouse</h3>
+                <p className="text-gray-500 mb-4 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-4 mr-1"
+                    className="h-4 w-4 mr-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -820,11 +830,11 @@ const Properties = () => {
                 </p>
 
                 {/* <!-- Features --> */}
-                <div class="flex justify-between mb-4 text-sm text-gray-600">
-                  <div class="flex items-center">
+                <div className="flex justify-between mb-4 text-sm text-gray-600">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -838,10 +848,10 @@ const Properties = () => {
                     </svg>
                     3 Bedrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -855,10 +865,10 @@ const Properties = () => {
                     </svg>
                     2 Bathrooms
                   </div>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -875,13 +885,15 @@ const Properties = () => {
                 </div>
 
                 {/* <!-- Price & Action Button --> */}
-                <div class="flex justify-between items-center">
+                <div className="flex justify-between items-center">
                   <div>
-                    <span class="text-2xl font-bold text-black">$2,100</span>
-                    <span class="text-gray-500">/month</span>
+                    <span className="text-2xl font-bold text-black">
+                      $2,100
+                    </span>
+                    <span className="text-gray-500">/month</span>
                   </div>
                   <button
-                    class="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
+                    className="view-details bg-red-300 hover:bg-red-400 text-white px-4 py-2 rounded-lg transition-colors duration-300"
                     data-id="6"
                   >
                     View Details
@@ -892,10 +904,10 @@ const Properties = () => {
           </div>
 
           {/* <!-- Load More Button --> */}
-          <div class="text-center mt-12">
+          <div className="text-center mt-12">
             <button
               id="load-more"
-              class="bg-white border border-red-300 hover:bg-red-50 text-red-500 font-medium py-3 px-8 rounded-lg transition-colors duration-300"
+              className="bg-white border border-red-300 hover:bg-red-50 text-red-500 font-medium py-3 px-8 rounded-lg transition-colors duration-300"
             >
               Load More Properties
             </button>
@@ -905,21 +917,21 @@ const Properties = () => {
         {/* <!-- Property Details Modal --> */}
         <div
           id="property-modal"
-          class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden"
+          className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden"
           aria-modal="true"
           aria-hidden="true"
           role="dialog"
         >
-          <div class="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto mx-4 shadow-xl relative">
+          <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto mx-4 shadow-xl relative">
             {/* <!-- Close button --> */}
             <button
               id="close-modal"
-              class="absolute top-4 right-4 bg-white rounded-full p-2 hover:bg-gray-100 focus:outline-none z-10"
+              className="absolute top-4 right-4 bg-white rounded-full p-2 hover:bg-gray-100 focus:outline-none z-10"
               aria-label="Close modal"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-gray-500"
+                className="h-6 w-6 text-gray-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -933,24 +945,24 @@ const Properties = () => {
               </svg>
             </button>
 
-            <div id="modal-content" class="p-0">
+            <div id="modal-content" className="p-0">
               {/* <!-- Content will be dynamically loaded here --> */}
-              <div class="p-8">
-                <div class="animate-pulse">
-                  <div class="h-72 bg-gray-200 rounded-lg mb-6"></div>
-                  <div class="h-8 bg-gray-200 rounded w-2/3 mb-4"></div>
-                  <div class="h-4 bg-gray-200 rounded mb-6"></div>
-                  <div class="grid grid-cols-3 gap-4 mb-6">
-                    <div class="h-8 bg-gray-200 rounded"></div>
-                    <div class="h-8 bg-gray-200 rounded"></div>
-                    <div class="h-8 bg-gray-200 rounded"></div>
+              <div className="p-8">
+                <div className="animate-pulse">
+                  <div className="h-72 bg-gray-200 rounded-lg mb-6"></div>
+                  <div className="h-8 bg-gray-200 rounded w-2/3 mb-4"></div>
+                  <div className="h-4 bg-gray-200 rounded mb-6"></div>
+                  <div className="grid grid-cols-3 gap-4 mb-6">
+                    <div className="h-8 bg-gray-200 rounded"></div>
+                    <div className="h-8 bg-gray-200 rounded"></div>
+                    <div className="h-8 bg-gray-200 rounded"></div>
                   </div>
-                  <div class="h-4 bg-gray-200 rounded mb-2"></div>
-                  <div class="h-4 bg-gray-200 rounded mb-2"></div>
-                  <div class="h-4 bg-gray-200 rounded mb-6"></div>
-                  <div class="flex justify-between">
-                    <div class="h-10 bg-gray-200 rounded w-1/3"></div>
-                    <div class="h-10 bg-gray-200 rounded w-1/4"></div>
+                  <div className="h-4 bg-gray-200 rounded mb-2"></div>
+                  <div className="h-4 bg-gray-200 rounded mb-2"></div>
+                  <div className="h-4 bg-gray-200 rounded mb-6"></div>
+                  <div className="flex justify-between">
+                    <div className="h-10 bg-gray-200 rounded w-1/3"></div>
+                    <div className="h-10 bg-gray-200 rounded w-1/4"></div>
                   </div>
                 </div>
               </div>
@@ -970,10 +982,10 @@ const Properties = () => {
 
       filterButtons.forEach((button) => {
         button.addEventListener("click", function () {
-          // Remove active class from all buttons
+          // Remove active className from all buttons
           filterButtons.forEach((btn) => {
-            btn.classList.remove("bg-red-300", "text-white");
-            btn.classList.add(
+            btn.classNameList.remove("bg-red-300", "text-white");
+            btn.classNameList.add(
               "bg-white",
               "text-gray-700",
               "border",
@@ -984,8 +996,8 @@ const Properties = () => {
             );
           });
 
-          // Add active class to clicked button
-          this.classList.remove(
+          // Add active className to clicked button
+          this.classNameList.remove(
             "bg-white",
             "text-gray-700",
             "border",
@@ -994,7 +1006,7 @@ const Properties = () => {
             "hover:text-red-400",
             "hover:border-red-300"
           );
-          this.classList.add("bg-red-300", "text-white");
+          this.classNameList.add("bg-red-300", "text-white");
 
           const filter = this.getAttribute("data-filter");
 
@@ -1021,12 +1033,12 @@ const Properties = () => {
           e.stopPropagation();
 
           const propertyId = this.getAttribute("data-id");
-          const isSaved = this.classList.contains("saved");
+          const isSaved = this.classNameList.contains("saved");
 
           if (isSaved) {
-            this.classList.remove("saved");
+            this.classNameList.remove("saved");
             this.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
     </svg>
   `;
@@ -1034,9 +1046,9 @@ const Properties = () => {
               `Property ${propertyId} removed from favorites`
             );
           } else {
-            this.classList.add("saved");
+            this.classNameList.add("saved");
             this.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
     </svg>
   `;
@@ -1054,7 +1066,7 @@ const Properties = () => {
       let currentTriggerElement = null;
 
       function openModal(propertyId) {
-        modal.classList.remove("hidden");
+        modal.classNameList.remove("hidden");
         document.body.style.overflow = "hidden";
 
         // Simulate loading property data
@@ -1063,20 +1075,20 @@ const Properties = () => {
           const propertyDetails = getPropertyDetails(propertyId);
           modalContent.innerHTML = `
   <div>
-    <div class="relative h-96">
+    <div className="relative h-96">
       <img src="${propertyDetails.image}" alt="${
             propertyDetails.title
-          }" class="w-full h-full object-cover">
+          }" className="w-full h-full object-cover">
     </div>
     
-    <div class="p-8">
-      <div class="flex justify-between items-start mb-4">
+    <div className="p-8">
+      <div className="flex justify-between items-start mb-4">
         <div>
-          <h2 class="text-2xl font-bold mb-2">${
+          <h2 className="text-2xl font-bold mb-2">${
             propertyDetails.title
           }</h2>
-          <p class="text-gray-500 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <p className="text-gray-500 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
@@ -1084,56 +1096,56 @@ const Properties = () => {
           </p>
         </div>
         <div>
-          <span class="text-3xl font-bold text-black">${
+          <span className="text-3xl font-bold text-black">${
             propertyDetails.price
           }</span>
-          <span class="text-gray-500">/month</span>
+          <span className="text-gray-500">/month</span>
         </div>
       </div>
       
-      <div class="grid grid-cols-3 gap-6 mb-8 border-t border-b border-gray-200 py-6">
-        <div class="text-center">
-          <div class="text-gray-500 text-sm mb-1">Bedrooms</div>
-          <div class="font-semibold">${propertyDetails.bedrooms}</div>
+      <div className="grid grid-cols-3 gap-6 mb-8 border-t border-b border-gray-200 py-6">
+        <div className="text-center">
+          <div className="text-gray-500 text-sm mb-1">Bedrooms</div>
+          <div className="font-semibold">${propertyDetails.bedrooms}</div>
         </div>
-        <div class="text-center">
-          <div class="text-gray-500 text-sm mb-1">Bathrooms</div>
-          <div class="font-semibold">${
+        <div className="text-center">
+          <div className="text-gray-500 text-sm mb-1">Bathrooms</div>
+          <div className="font-semibold">${
             propertyDetails.bathrooms
           }</div>
         </div>
-        <div class="text-center">
-          <div class="text-gray-500 text-sm mb-1">Area</div>
-          <div class="font-semibold">${propertyDetails.area}</div>
+        <div className="text-center">
+          <div className="text-gray-500 text-sm mb-1">Area</div>
+          <div className="font-semibold">${propertyDetails.area}</div>
         </div>
       </div>
       
-      <div class="mb-8">
-        <h3 class="text-xl font-semibold mb-4">Description</h3>
-        <p class="text-gray-600">${propertyDetails.description}</p>
+      <div className="mb-8">
+        <h3 className="text-xl font-semibold mb-4">Description</h3>
+        <p className="text-gray-600">${propertyDetails.description}</p>
       </div>
       
-      <div class="mb-8">
-        <h3 class="text-xl font-semibold mb-4">Features & Amenities</h3>
-        <ul class="grid grid-cols-2 gap-2 text-gray-600">
+      <div className="mb-8">
+        <h3 className="text-xl font-semibold mb-4">Features & Amenities</h3>
+        <ul className="grid grid-cols-2 gap-2 text-gray-600">
           ${propertyDetails.features
             .map(
               (feature) =>
-                `<li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>${feature}</li>`
+                `<li className="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>${feature}</li>`
             )
             .join("")}
         </ul>
       </div>
       
-      <div class="flex flex-col sm:flex-row justify-between gap-4">
-        <a href="tel:+1234567890" class="bg-white border border-red-300 text-red-500 px-6 py-3 rounded-lg text-center hover:bg-red-50 transition-colors duration-300">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="flex flex-col sm:flex-row justify-between gap-4">
+        <a href="tel:+1234567890" className="bg-white border border-red-300 text-red-500 px-6 py-3 rounded-lg text-center hover:bg-red-50 transition-colors duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
           </svg>
           Contact Agent
         </a>
-        <button class="bg-red-300 hover:bg-red-400 text-white px-6 py-3 rounded-lg transition-colors duration-300">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <button className="bg-red-300 hover:bg-red-400 text-white px-6 py-3 rounded-lg transition-colors duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
           Schedule a Tour
@@ -1146,7 +1158,7 @@ const Properties = () => {
       }
 
       function closeModal() {
-        modal.classList.add("hidden");
+        modal.classNameList.add("hidden");
         document.body.style.overflow = "";
         if (currentTriggerElement) {
           currentTriggerElement.focus();
@@ -1174,7 +1186,7 @@ const Properties = () => {
       document.addEventListener("keydown", function (e) {
         if (
           e.key === "Escape" &&
-          !modal.classList.contains("hidden")
+          !modal.classNameList.contains("hidden")
         ) {
           closeModal();
         }
@@ -1343,7 +1355,7 @@ const Properties = () => {
         if (loadCount >= 2) {
           this.textContent = "No More Properties";
           this.disabled = true;
-          this.classList.add("opacity-50", "cursor-not-allowed");
+          this.classNameList.add("opacity-50", "cursor-not-allowed");
         } else {
           // Simulate loading more properties (would be an AJAX call in a real app)
           this.textContent = "Loading...";

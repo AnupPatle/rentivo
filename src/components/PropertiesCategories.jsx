@@ -3,44 +3,44 @@ import React from "react";
 const PropertiesCategories = () => {
   return (
     <div id="root">
-      <section id="property-categories" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-          <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-neutral-900 mb-4">
+      <section id="property-categories" className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-neutral-900 mb-4">
               Find Your Perfect Space
             </h2>
-            <p class="text-lg text-neutral-600 max-w-2xl mx-auto">
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
               Explore our wide range of rental properties to find the perfect
               home that fits your lifestyle and needs.
             </p>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* <!-- Category 1 --> */}
-            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div class="relative h-64">
+            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="relative h-64">
                 <img
                   src="https://images.unsplash.com/photo-1596275281743-e7399c7bdfa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Luxury Apartments"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                 />
-                <div class="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                   Premium
                 </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-semibold text-neutral-900 mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-neutral-900 mb-2">
                   Luxury Apartments
                 </h3>
-                <p class="text-neutral-600 mb-4">
+                <p className="text-neutral-600 mb-4">
                   Elegant living spaces with high-end finishes and exclusive
                   amenities for a premium lifestyle.
                 </p>
-                <div class="flex items-center text-sm text-neutral-500 mb-4">
-                  <span class="flex items-center mr-4">
+                <div className="flex items-center text-sm text-neutral-500 mb-4">
+                  <span className="flex items-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -54,10 +54,10 @@ const PropertiesCategories = () => {
                     </svg>
                     1-3 Bedrooms
                   </span>
-                  <span class="flex items-center">
+                  <span className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -74,7 +74,7 @@ const PropertiesCategories = () => {
                 </div>
                 <a
                   href="#"
-                  class="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
+                  className="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
                 >
                   View Properties →
                 </a>
@@ -82,30 +82,30 @@ const PropertiesCategories = () => {
             </div>
 
             {/* <!-- Category 2 --> */}
-            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div class="relative h-64">
+            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="relative h-64">
                 <img
                   src="https://images.unsplash.com/photo-1596367407372-96cb88503db6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Studio Apartments"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                 />
-                <div class="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                   Popular
                 </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-semibold text-neutral-900 mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-neutral-900 mb-2">
                   Studio Apartments
                 </h3>
-                <p class="text-neutral-600 mb-4">
+                <p className="text-neutral-600 mb-4">
                   Cozy and efficient living spaces perfect for singles or
                   couples seeking urban convenience.
                 </p>
-                <div class="flex items-center text-sm text-neutral-500 mb-4">
-                  <span class="flex items-center mr-4">
+                <div className="flex items-center text-sm text-neutral-500 mb-4">
+                  <span className="flex items-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -119,10 +119,10 @@ const PropertiesCategories = () => {
                     </svg>
                     Studio
                   </span>
-                  <span class="flex items-center">
+                  <span className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -139,7 +139,7 @@ const PropertiesCategories = () => {
                 </div>
                 <a
                   href="#"
-                  class="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
+                  className="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
                 >
                   View Properties →
                 </a>
@@ -147,30 +147,30 @@ const PropertiesCategories = () => {
             </div>
 
             {/* <!-- Category 3 --> */}
-            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div class="relative h-64">
+            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="relative h-64">
                 <img
                   src="https://images.unsplash.com/photo-1554227231-54aa5db01c51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Family Homes"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                 />
-                <div class="absolute top-4 right-4 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                   Spacious
                 </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-semibold text-neutral-900 mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-neutral-900 mb-2">
                   Family Homes
                 </h3>
-                <p class="text-neutral-600 mb-4">
+                <p className="text-neutral-600 mb-4">
                   Comfortable and spacious houses ideal for families looking for
                   community and convenience.
                 </p>
-                <div class="flex items-center text-sm text-neutral-500 mb-4">
-                  <span class="flex items-center mr-4">
+                <div className="flex items-center text-sm text-neutral-500 mb-4">
+                  <span className="flex items-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -184,10 +184,10 @@ const PropertiesCategories = () => {
                     </svg>
                     3-5 Bedrooms
                   </span>
-                  <span class="flex items-center">
+                  <span className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -204,7 +204,7 @@ const PropertiesCategories = () => {
                 </div>
                 <a
                   href="#"
-                  class="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
+                  className="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
                 >
                   View Properties →
                 </a>
@@ -212,30 +212,30 @@ const PropertiesCategories = () => {
             </div>
 
             {/* <!-- Category 4 --> */}
-            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div class="relative h-64">
+            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="relative h-64">
                 <img
                   src="https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NHx8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Student Housing"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                 />
-                <div class="absolute top-4 right-4 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                   Affordable
                 </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-semibold text-neutral-900 mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-neutral-900 mb-2">
                   Student Housing
                 </h3>
-                <p class="text-neutral-600 mb-4">
+                <p className="text-neutral-600 mb-4">
                   Budget-friendly accommodations located near universities with
                   amenities students need.
                 </p>
-                <div class="flex items-center text-sm text-neutral-500 mb-4">
-                  <span class="flex items-center mr-4">
+                <div className="flex items-center text-sm text-neutral-500 mb-4">
+                  <span className="flex items-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -249,10 +249,10 @@ const PropertiesCategories = () => {
                     </svg>
                     Shared Rooms
                   </span>
-                  <span class="flex items-center">
+                  <span className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -269,7 +269,7 @@ const PropertiesCategories = () => {
                 </div>
                 <a
                   href="#"
-                  class="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
+                  className="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
                 >
                   View Properties →
                 </a>
@@ -277,30 +277,30 @@ const PropertiesCategories = () => {
             </div>
 
             {/* <!-- Category 5 --> */}
-            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div class="relative h-64">
+            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="relative h-64">
                 <img
                   src="https://images.unsplash.com/photo-1570747408017-38b4c5959378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NXx8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Executive Rentals"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                 />
-                <div class="absolute top-4 right-4 bg-purple-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-purple-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                   Exclusive
                 </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-semibold text-neutral-900 mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-neutral-900 mb-2">
                   Executive Rentals
                 </h3>
-                <p class="text-neutral-600 mb-4">
+                <p className="text-neutral-600 mb-4">
                   Fully furnished premium properties ideal for business
                   professionals on extended stays.
                 </p>
-                <div class="flex items-center text-sm text-neutral-500 mb-4">
-                  <span class="flex items-center mr-4">
+                <div className="flex items-center text-sm text-neutral-500 mb-4">
+                  <span className="flex items-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -314,10 +314,10 @@ const PropertiesCategories = () => {
                     </svg>
                     1-2 Bedrooms
                   </span>
-                  <span class="flex items-center">
+                  <span className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -334,7 +334,7 @@ const PropertiesCategories = () => {
                 </div>
                 <a
                   href="#"
-                  class="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
+                  className="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
                 >
                   View Properties →
                 </a>
@@ -342,30 +342,30 @@ const PropertiesCategories = () => {
             </div>
 
             {/* <!-- Category 6 --> */}
-            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div class="relative h-64">
+            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="relative h-64">
                 <img
                   src="https://images.unsplash.com/photo-1487260211189-670c54da558d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Nnx8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Vacation Rentals"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                 />
-                <div class="absolute top-4 right-4 bg-indigo-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-indigo-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                   Seasonal
                 </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-semibold text-neutral-900 mb-2">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-neutral-900 mb-2">
                   Vacation Rentals
                 </h3>
-                <p class="text-neutral-600 mb-4">
+                <p className="text-neutral-600 mb-4">
                   Short-term stays in prime locations perfect for holidays and
                   weekend getaways.
                 </p>
-                <div class="flex items-center text-sm text-neutral-500 mb-4">
-                  <span class="flex items-center mr-4">
+                <div className="flex items-center text-sm text-neutral-500 mb-4">
+                  <span className="flex items-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -379,10 +379,10 @@ const PropertiesCategories = () => {
                     </svg>
                     Various Sizes
                   </span>
-                  <span class="flex items-center">
+                  <span className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 mr-1"
+                      className="h-4 w-4 mr-1"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -399,7 +399,7 @@ const PropertiesCategories = () => {
                 </div>
                 <a
                   href="#"
-                  class="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
+                  className="inline-block text-red-500 font-semibold hover:text-red-600 transition-colors duration-300"
                 >
                   View Properties →
                 </a>
@@ -408,89 +408,97 @@ const PropertiesCategories = () => {
           </div>
 
           {/* <!-- Featured Categories --> */}
-          <div class="mt-16">
-            <h3 class="text-2xl font-bold text-neutral-900 mb-8 text-center">
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold text-neutral-900 mb-8 text-center">
               Featured Property Types
             </h3>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               {/* <!-- Featured Type 1 --> */}
-              <div class="relative overflow-hidden rounded-lg h-64 group">
+              <div className="relative overflow-hidden rounded-lg h-64 group">
                 <img
                   src="https://images.unsplash.com/photo-1495841020177-1919ede29bd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8N3x8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Modern Lofts"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 p-6">
-                  <h4 class="text-white font-semibold text-xl mb-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h4 className="text-white font-semibold text-xl mb-1">
                     Modern Lofts
                   </h4>
-                  <p class="text-white/80 text-sm">26 properties available</p>
+                  <p className="text-white/80 text-sm">
+                    26 properties available
+                  </p>
                 </div>
               </div>
 
               {/* <!-- Featured Type 2 --> */}
-              <div class="relative overflow-hidden rounded-lg h-64 group">
+              <div className="relative overflow-hidden rounded-lg h-64 group">
                 <img
                   src="https://images.unsplash.com/photo-1547104442-044448b73426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8OHx8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Beachfront Properties"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 p-6">
-                  <h4 class="text-white font-semibold text-xl mb-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h4 className="text-white font-semibold text-xl mb-1">
                     Beachfront Properties
                   </h4>
-                  <p class="text-white/80 text-sm">12 properties available</p>
+                  <p className="text-white/80 text-sm">
+                    12 properties available
+                  </p>
                 </div>
               </div>
 
               {/* <!-- Featured Type 3 --> */}
-              <div class="relative overflow-hidden rounded-lg h-64 group">
+              <div className="relative overflow-hidden rounded-lg h-64 group">
                 <img
                   src="https://images.unsplash.com/photo-1617713964959-d9a36bbc7b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8OXx8bW9kZXJuJTJCbHV4dXJ5JTJCYXBhcnRtZW50JTJCaW50ZXJpb3IlMkJ3aGl0ZSUyQmRlY29yfGVufDB8fHx8MTc0NTg1MzY4OHww&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Mountain Retreats"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 p-6">
-                  <h4 class="text-white font-semibold text-xl mb-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h4 className="text-white font-semibold text-xl mb-1">
                     Mountain Retreats
                   </h4>
-                  <p class="text-white/80 text-sm">18 properties available</p>
+                  <p className="text-white/80 text-sm">
+                    18 properties available
+                  </p>
                 </div>
               </div>
 
               {/* <!-- Featured Type 4 --> */}
-              <div class="relative overflow-hidden rounded-lg h-64 group">
+              <div className="relative overflow-hidden rounded-lg h-64 group">
                 <img
                   src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MTB8fG1vZGVybiUyQmx1eHVyeSUyQmFwYXJ0bWVudCUyQmludGVyaW9yJTJCd2hpdGUlMkJkZWNvcnxlbnwwfHx8fDE3NDU4NTM2ODh8MA&ixlib=rb-4.0.3&q=80&w=400"
                   alt="Urban Penthouses"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 p-6">
-                  <h4 class="text-white font-semibold text-xl mb-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h4 className="text-white font-semibold text-xl mb-1">
                     Urban Penthouses
                   </h4>
-                  <p class="text-white/80 text-sm">9 properties available</p>
+                  <p className="text-white/80 text-sm">
+                    9 properties available
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* <!-- Property Features --> */}
-          <div class="mt-16">
-            <h3 class="text-2xl font-bold text-neutral-900 mb-8 text-center">
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold text-neutral-900 mb-8 text-center">
               Popular Features & Amenities
             </h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {/* <!-- Feature 1 --> */}
-              <div class="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
-                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-8 text-red-500"
+                    className="h-8 w-8 text-red-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -503,20 +511,20 @@ const PropertiesCategories = () => {
                     />
                   </svg>
                 </div>
-                <h4 class="font-semibold text-lg text-neutral-900 mb-2">
+                <h4 className="font-semibold text-lg text-neutral-900 mb-2">
                   Pet Friendly
                 </h4>
-                <p class="text-neutral-600 text-sm">
+                <p className="text-neutral-600 text-sm">
                   Properties that welcome your furry companions
                 </p>
               </div>
 
               {/* <!-- Feature 2 --> */}
-              <div class="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
-                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-8 text-red-500"
+                    className="h-8 w-8 text-red-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -529,20 +537,20 @@ const PropertiesCategories = () => {
                     />
                   </svg>
                 </div>
-                <h4 class="font-semibold text-lg text-neutral-900 mb-2">
+                <h4 className="font-semibold text-lg text-neutral-900 mb-2">
                   Utilities Included
                 </h4>
-                <p class="text-neutral-600 text-sm">
+                <p className="text-neutral-600 text-sm">
                   All-inclusive rentals with no surprise costs
                 </p>
               </div>
 
               {/* <!-- Feature 3 --> */}
-              <div class="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
-                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-8 text-red-500"
+                    className="h-8 w-8 text-red-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -561,20 +569,20 @@ const PropertiesCategories = () => {
                     />
                   </svg>
                 </div>
-                <h4 class="font-semibold text-lg text-neutral-900 mb-2">
+                <h4 className="font-semibold text-lg text-neutral-900 mb-2">
                   Prime Locations
                 </h4>
-                <p class="text-neutral-600 text-sm">
+                <p className="text-neutral-600 text-sm">
                   Convenient access to transportation and amenities
                 </p>
               </div>
 
               {/* <!-- Feature 4 --> */}
-              <div class="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
-                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-neutral-50 p-6 rounded-lg text-center hover:bg-neutral-100 transition-colors duration-300">
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-8 text-red-500"
+                    className="h-8 w-8 text-red-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -587,10 +595,10 @@ const PropertiesCategories = () => {
                     />
                   </svg>
                 </div>
-                <h4 class="font-semibold text-lg text-neutral-900 mb-2">
+                <h4 className="font-semibold text-lg text-neutral-900 mb-2">
                   Easy Payment
                 </h4>
-                <p class="text-neutral-600 text-sm">
+                <p className="text-neutral-600 text-sm">
                   Seamless online rent payments and deposits
                 </p>
               </div>
@@ -598,27 +606,27 @@ const PropertiesCategories = () => {
           </div>
 
           {/* <!-- CTA Section --> */}
-          <div class="mt-16 bg-neutral-50 rounded-lg p-8 md:p-12">
-            <div class="flex flex-col md:flex-row items-center justify-between">
-              <div class="mb-6 md:mb-0 md:mr-8">
-                <h3 class="text-2xl font-bold text-neutral-900 mb-3">
+          <div className="mt-16 bg-neutral-50 rounded-lg p-8 md:p-12">
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              <div className="mb-6 md:mb-0 md:mr-8">
+                <h3 className="text-2xl font-bold text-neutral-900 mb-3">
                   Find Your Dream Rental Today
                 </h3>
-                <p class="text-neutral-600">
+                <p className="text-neutral-600">
                   Browse our categories or use our advanced search to find the
                   perfect place to call home.
                 </p>
               </div>
-              <div class="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="#"
-                  class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300 text-center"
+                  className="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300 text-center"
                 >
                   Browse All Properties
                 </a>
                 <a
                   href="#"
-                  class="bg-white border border-neutral-300 hover:bg-neutral-100 text-neutral-800 font-semibold py-3 px-6 rounded-lg transition-colors duration-300 text-center"
+                  className="bg-white border border-neutral-300 hover:bg-neutral-100 text-neutral-800 font-semibold py-3 px-6 rounded-lg transition-colors duration-300 text-center"
                 >
                   Contact an Agent
                 </a>
